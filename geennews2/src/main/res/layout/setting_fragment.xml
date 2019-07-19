@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="无图模式" />
+
+        <CheckBox
+            android:id="@+id/img_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="夜间模式" />
+
+        <CheckBox
+            android:id="@+id/night_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right" />
+    </LinearLayout>
+</LinearLayout>
