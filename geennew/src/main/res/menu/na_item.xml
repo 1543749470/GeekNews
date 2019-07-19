@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="咨询">
+        <menu>
+        <item android:id="@+id/na_item_zhihu"
+               android:title="知乎日报"
+               android:checkable="true"
+               android:checked="true"
+            android:icon="@mipmap/ic_drawer_zhihu"/>
+
+            <item android:id="@+id/na_item_wechat"
+                android:title="微信精选"
+                android:checkable="true"
+                android:checked="true"
+                android:icon="@mipmap/ic_drawer_wechat"/>
+
+            <item android:id="@+id/na_item_gank"
+                android:title="干货集中营"
+                android:checkable="true"
+                android:checked="true"
+                android:icon="@mipmap/ic_drawer_gank"/>
+
+            <item android:id="@+id/na_item_gold"
+                android:title="稀土掘金"
+                android:checkable="true"
+                android:checked="true"
+                android:icon="@mipmap/ic_drawer_gold"/>
+
+            <item android:id="@+id/na_item_vtex"
+                android:title="V2EX"
+                android:checkable="true"
+                android:checked="true"
+                android:icon="@mipmap/ic_drawer_vtex"/>
+        </menu>
+    </item>
+    <item android:title="选项">
+        <menu>
+            <item android:id="@+id/na_item_like"
+                  android:title="收藏"
+                android:icon="@mipmap/ic_drawer_like"
+                android:checked="true"
+                android:checkable="true"
+                />
+            <item android:id="@+id/na_item_setting"
+                android:title="设置"
+                android:checkable="true"
+                android:checked="true"
+                android:icon="@mipmap/ic_drawer_setting"/>
+            <item android:id="@+id/na_item_about"
+                android:title="关于"
+                android:checkable="true"
+                android:checked="true"
+                android:icon="@mipmap/ic_drawer_about"/>
+
+        </menu>
+
+    </item>
+</menu>
